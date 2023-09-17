@@ -15,9 +15,9 @@ function ProjectPage(props) {
       </div>
       <div className='row'>
 
-      <strong>Title:{props.children[1]}</strong>
-      <strong>Deployedlink:{props.children[3]}</strong>  
-      <strong>Githublink:{props.children[5]}</strong> 
+      <h5>Title:{props.children[1]}</h5>
+      <h5>Deployedlink:{props.children[3]}</h5>  
+      <h5>Githublink:{props.children[5]}</h5> 
       <br /><br></br>
       </div>
     </div>

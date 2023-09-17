@@ -1,0 +1,13 @@
+.stylediv1{
+    height: 400px;
+    width: 850px;
+    outline: none;
+    border-color: black;
+    box-shadow: 0 0 20px brown;
+    
+    text-align: center;
+    /* background: linear-gradient(45deg, brown, pink); */
+    margin-top: 10px;
+    background-color: crimson;
+
+}

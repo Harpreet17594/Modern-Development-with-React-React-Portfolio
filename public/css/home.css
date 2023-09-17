@@ -1,5 +1,5 @@
 .myfont{font-family: 'Bree Serif', serif;
-    color: brown;
+    color: crimson;
 font-size: 30px;
 text-align: center;
 margin-top: 10px;}
@@ -9,7 +9,8 @@ margin-top: 10px;}
     margin-top: 50px;
 }
 .backstyle{
-    background: linear-gradient(45deg, brown, pink);
+    /* background: linear-gradient(45deg, brown, pink); */
+    background-color: crimson;
     height:600px
 }
 .borderstyle{
