@@ -7,6 +7,8 @@ import Projects from './Projects';
 import Contact from './Contact';
 import ProjectPage from './ProjectPage';
 import projectdata from '/projectdata.json';
+import projects from '/projects.json';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as bootstrap from 'bootstrap';
 // import Wrapper from './Wrapper.jsx';
@@ -25,7 +27,26 @@ function Header() {
           {/* Define a default route that will render the Home component */}
           <Route path="/"  element={<Home />} />
           {/* <Route path="header" element={<Header />} /> */}
-          <Route path="projects" element={<Projects />} />
+          <Route path="projects" 
+          element=
+          {
+            <>
+          <Projects >
+                      screenshot1={projectdata[0].screenshot}                
+          </Projects>
+          <Projects >
+                screenshot1={projectdata[1].screenshot}                
+          </Projects>
+          <Projects >
+                      screenshot1={projectdata[2].screenshot}                
+          </Projects>
+          <Projects >
+                screenshot1={projectdata[3].screenshot}                
+          </Projects>
+         
+          </>
+          } 
+          />
           <Route path="projectpage" 
                   element=
                   {

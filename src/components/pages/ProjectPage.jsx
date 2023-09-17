@@ -11,7 +11,7 @@ function ProjectPage(props) {
     <div className='container stylediv'>
       <div className='row'><div className='col-md-12'>
         <div className='row'>
-      <img alt={props.children[1]} src={props.children[5]} height={400} width={650} /><br />
+      <img alt={props.children[1]} src={props.children[5]} height={400} width={650}  /><br />
       </div>
       <div className='row'>
 
