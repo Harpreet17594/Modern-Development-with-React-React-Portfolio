@@ -1,0 +1,96 @@
+.nav-style{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    border-bottom: 5px solid black;
+
+}
+/* border right properties */
+.border-right-style{
+   border-right: 1px solid black;
+}
+
+/* properties for font style */
+.font-style{
+   background-color: rgba(69, 189, 222, 0.8);
+   width: fit-content;
+   padding: 5px;
+   text-decoration: none;
+   color: black;
+   font-size: 25px;
+   margin-top: 10px;
+}
+/* css properties for bottom border */
+.border-bottom-style{
+   border-bottom: 1px solid black;
+   width: fit-content;
+}
+
+/* box shadow */
+.box-shadow{
+   -webkit-box-shadow: 0 1px 1px rgba(69, 189, 222, 0.8);
+   box-shadow: 0 1px 1px rgba(69, 189, 222, 0.8);
+   -webkit-transition: all .2s ease-out;
+   -moz-transition: all .2s ease-out;
+   -ms-transition: all .2s ease-out;
+   -o-transition: all .2s ease-out;
+   transition: all .2s ease-out;
+}
+
+.box-shadow:hover{
+   -webkit-box-shadow: 0 10px 20px rgba(69, 189, 222, 0.8);
+   box-shadow: 0 20px 20px rgba(69, 189, 222, 0.8);
+   -webkit-transform: translateY(-5px);
+   -moz-transform: translateY(-5px);
+   -ms-transform: translateY(-5px);
+   -o-transform: translateY(-5px);
+   transform: translateY(-5px);
+}
+.hover-style:hover{
+       z-index:10;
+       width:960px;
+       height:400px;
+       opacity: 1.0;
+     }
+
+/* container code starts here */
+.container-grid
+{
+   display: grid;
+   min-height: 350px;
+   grid-template-columns: 29% 33.3% 33.3% ;
+   grid-template-rows: 100%;
+   grid-gap: 5px;
+   grid-template-areas: "inside-container1 inside-container2 inside-container3";
+}
+.inside-container1{
+   grid-area: inside-container1;
+}
+.inside-container2{
+   grid-area: inside-container2;
+}
+.inside-container3{
+   grid-area: inside-container3;
+}
+
+
+
+/* MEDIA QUERIES  for grid */
+
+@media screen and (max-width:768px) {
+
+   .container-grid{
+       display: grid;
+   min-height: 550px;
+   grid-template-columns: 100% ;
+   grid-template-rows: 50% 50%;
+   grid-gap: 5px;
+   grid-template-areas:
+                       "inside-container2"
+                       "inside-container3";
+
+   }
+
+
+}

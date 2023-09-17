@@ -1,17 +1,27 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import '../css/Headerstyle.css';
+// import '../css/Headerstyle.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as bootstrap from 'bootstrap';
+import Mypic1 from '/public/images/Mypic1.jpg';
+
+import '/public/css/home.css'
 
 
 function NavTabs() {
   return (
-    <div className="container container-fluid">
+
+
+    
+    // ================================================================================================
+    <div className="container container-fluid myfont">
     <div className="row">
-    <div className='col-lg-8'>  
-    <ul className="nav nav-tabs">
-      <li className="nav-item styleul">
+      <div className='col-lg-4'>
+      <pre className='myfont'>Portfolio: Harpreet Kaur </pre>
+      </div>
+    <div className='col-lg-8 styleul'>  
+    <ul className="nav nav-tabs ">
+      <li className="nav-item  ">
         <NavLink
           to="/"
           end

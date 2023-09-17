@@ -1,26 +1,32 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as bootstrap from 'bootstrap';
-import '../'
+import Mypic1 from '/public/images/Mypic1.jpg';
+
+import '/public/css/home.css'
+
+// import '../'
 
 function Home() {
-  return (
-    <div>
-      <h1>Home Page</h1>
-
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
-    </div>
+  return (<>
+    <div className='container mt-4 backstyle'>
+      <div className='row'>
+      <div className='col-lg-4 mt-5'>
+      <img src={Mypic1} height="200px" width="200px" className='borderstyle' ></img>
+      </div>
+      <div className='col-lg-8 mt-5'>
+       
+        <p className='fontstyleother'>
+        Hii I am Harpreet Kaur.This page containes information about me and my work which i have done last two weeks.
+         Also I have mentioned the skills i will learn in the Front end web developer bootcamp.Lastly i have mentioned my contact information.
+         Hii I am Harpreet Kaur.This page containes information about me and my work which i have done last two weeks.
+         Also I have mentioned the skills i will learn in the Front end web developer bootcamp.Lastly i have mentioned my contact information.
+        </p>
+        </div>
+      </div>
+      </div>
+      
+      </>
   );
 }
 

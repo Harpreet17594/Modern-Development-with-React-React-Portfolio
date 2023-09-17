@@ -1,0 +1,11 @@
+.stylediv{
+    height: 600px;
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 20px brown;
+    
+    text-align: center;
+    background: linear-gradient(45deg, brown, pink);
+    margin-top: 10px;
+
+}

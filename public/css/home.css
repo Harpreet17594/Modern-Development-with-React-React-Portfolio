@@ -1,0 +1,23 @@
+.myfont{font-family: 'Bree Serif', serif;
+    color: brown;
+font-size: 30px;
+text-align: center;
+margin-top: 10px;}
+.fontstyleother{
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+    margin-top: 50px;
+}
+.backstyle{
+    background: linear-gradient(45deg, brown, pink);
+    height:600px
+}
+.borderstyle{
+    border-radius: 30px;
+    margin-top: 150px;
+    margin-left: 100px;
+    border: solid brown 4px;
+}
+.styleul{
+    color:blueviolet;
+}

@@ -9,9 +9,9 @@ import ProjectPage from './components/pages/ProjectPage';
 
 function App() {
   return (
-    <>
+    <div>
     <Header/>
-    </>
+    </div>
   );
 }
   export default App;
