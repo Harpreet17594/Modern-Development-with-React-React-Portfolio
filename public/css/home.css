@@ -2,7 +2,8 @@
     color: crimson;
 font-size: 30px;
 text-align: center;
-margin-top: 10px;}
+margin-top: 10px;
+}
 .fontstyleother{
     font-size: 30px;
     font-family: 'Bree Serif', serif;
@@ -20,5 +21,9 @@ margin-top: 10px;}
     border: solid brown 4px;
 }
 .styleul{
-    color:blueviolet;
+    border: 4px solid crimson;
+    border-radius: 4px;
+}
+.styleli{
+    color: crimson;
 }

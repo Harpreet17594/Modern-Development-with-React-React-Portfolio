@@ -1,0 +1,12 @@
+.myfont1{
+    font-family: 'Bree Serif', serif;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    background-color: crimson;
+    height: 500px;
+    font-size: 25px;
+}
+.fontstyle{
+    font-size: 15px;
+}

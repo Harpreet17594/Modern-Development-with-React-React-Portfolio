@@ -14,14 +14,14 @@ function NavTabs() {
 
     
     // ================================================================================================
-    <div className="container container-fluid myfont">
+    <div className="container container-fluid myfont  styleul">
     <div className="row">
       <div className='col-lg-4'>
       <pre className='myfont'>Portfolio: Harpreet Kaur </pre>
       </div>
-    <div className='col-lg-8 styleul'>  
+    <div className='col-lg-8'>  
     <ul className="nav nav-tabs ">
-      <li className="nav-item  ">
+      <li className="nav-item">
         <NavLink
           to="/"
           end
@@ -65,12 +65,12 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="contact/learn"
+          to="resume"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Learn
+          Resume
         </NavLink>
       </li>
     </ul>

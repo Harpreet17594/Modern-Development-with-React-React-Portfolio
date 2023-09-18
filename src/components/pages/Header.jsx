@@ -5,6 +5,8 @@ import Home from './Home';
 // import Header from './components/pages/Header';
 import Projects from './Projects';
 import Contact from './Contact';
+import Resume from './Resume';
+
 import ProjectPage from './ProjectPage';
 import projectdata from '/projectdata.json';
 import projects from '/projects.json';
@@ -90,6 +92,7 @@ function Header() {
 
           {/* Define a route that will have descendant routes */}
           <Route path="contact/*" element={<Contact />} />
+          <Route path="resume" element={<Resume />} />
         </Routes>
       </div>
     </Router>

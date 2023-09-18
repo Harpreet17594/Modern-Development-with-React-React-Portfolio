@@ -1,33 +1,54 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
-import Learn from './Learn';
+// import Contact from './Contact';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import * as bootstrap from 'bootstrap';
+import '/public/css/contact.css'
+
+
 
 function Contact(props) {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-      <Link to="learn" role="button" className="btn btn-link">
+    <div className='container myfont1'>
+      <div className='row'>
+      <div className='col-md-4'>
+        <br /><br /><br /><br />
+      <span fontstyle>Contact Details</span><br />
+      </div>
+      
+      <div className='col-md-8'>
+      <br /><br />
+      <span>Email Id: </span>
+      <strong>Harpreetvirdi17594@gmail.com</strong>
+      <br />
+      <span> Github Account:</span>
+      <strong>https://github.com/Harpreet17594/Modern-Development-with-React-React-Portfolio</strong>
+      <br />
+      <span>LinkedIN Profile</span>
+      <strong>https://www.linkedin.com/in/harpreet-kaur-a33b78280/</strong>
+      <br />
+      <span>Mobile Number :</span>
+      <strong> +44 7733513586</strong>
+      <br />
+      <span>Resume Google Docs Link </span>
+      <i>https://docs.google.com/document/d/10dS7R5Ds109E-x4AMAO_IAk3TCTXdxgm-4pCl8c7wxc/edit?usp=sharing</i>
+<br/>
+
+
+
+
+
+      {/* <Link to="learn" role="button" className="btn btn-link">
         Learn More
       </Link>
       <Link to="contact" role="button" className="btn btn-link">
         Learn Less
       </Link>
       <Routes>
-        <Route path="learn" element={<Learn />} />
-      </Routes>
+        <Route path="contact" element={<Contact />} />
+      </Routes> */}
+      </div>
+      </div>
     </div>
   );
 }
