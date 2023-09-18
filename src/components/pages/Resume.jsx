@@ -14,10 +14,10 @@ function Resume() {
     <div className='container'>
       <div className='row'>
         <div className='col-lg-6'>
-            <img src="/public/images/resume1.png" alt="loading" height={700} width={600} />
+            <img src="/public/images/resume1.png" alt="loading" height={700} width={600} className='box-shadow' />
         </div>
         <div className='col-lg-6'>
-           <img src="/public/images/resume2.png" alt="loading" height={700} width={600} />
+           <img src="/public/images/resume2.png" alt="loading" height={700} width={600} className='box-shadow'/>
         </div>
       </div>
     </div>

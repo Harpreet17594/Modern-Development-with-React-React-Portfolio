@@ -10,3 +10,30 @@
 .fontstyle{
     font-size: 15px;
 }
+/* box shadow */
+.box-shadow{
+    -webkit-box-shadow: 0 1px 1px rgba(219, 227, 230, 0.8);
+    box-shadow: 0 1px 1px rgba(245, 248, 249, 0.8);
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+ }
+ 
+ .box-shadow:hover{
+    -webkit-box-shadow: 0 10px 20px rgba(233, 234, 234, 0.8);
+    box-shadow: 0 20px 20px rgba(239, 243, 244, 0.8);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    transform: translateY(-5px);
+ }
+ .hover-style:hover{
+        z-index:10;
+        width:960px;
+        height:400px;
+        opacity: 1.0;
+      }
+ 
