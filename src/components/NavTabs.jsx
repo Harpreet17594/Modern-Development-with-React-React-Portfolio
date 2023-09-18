@@ -21,12 +21,12 @@ function NavTabs() {
       </div>
     <div className='col-lg-8'>  
     <ul className="nav nav-tabs ">
-      <li className="nav-item">
+      <li className="nav-item" >
         <NavLink
           to="/"
           end
           className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
+            isActive ? 'nav-link active myfont' : 'nav-link myfont'
           }
         >
           Home
@@ -36,7 +36,7 @@ function NavTabs() {
         <NavLink
           to="projects"
           className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
+            isActive ? 'nav-link active myfont' : 'nav-link myfont'
           }
         >
           Projects
@@ -46,7 +46,7 @@ function NavTabs() {
         <NavLink
           to="projectpage"
           className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
+            isActive ? 'nav-link active myfont' : 'nav-link myfont'
           }
         >
           Project page
@@ -57,7 +57,7 @@ function NavTabs() {
           to="contact"
           end
           className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
+            isActive ? 'nav-link active myfont' : 'nav-link myfont'
           }
         >
           Contact
@@ -67,7 +67,7 @@ function NavTabs() {
         <NavLink
           to="resume"
           className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
+            isActive ? 'nav-link active myfont' : 'nav-link myfont'
           }
         >
           Resume
