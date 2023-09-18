@@ -12,12 +12,12 @@ function Contact(props) {
     <div className='container myfont1'>
       <div className='row'>
       <div className='col-md-4'>
-        <br /><br /><br /><br />
+        <br /><br /><br /><br /> <br /><br />
       <span fontstyle>Contact Details</span><br />
       </div>
       
       <div className='col-md-8'>
-      <br /><br />
+      <br /><br /><br /><br />
       <span>Email Id: </span>
       <strong>Harpreetvirdi17594@gmail.com</strong>
       <br />

@@ -1,6 +1,6 @@
 .stylediv1{
     height: 400px;
-    width: 850px;
+    width: 1050px;
     outline: none;
     border-color: crimson;
     box-shadow: 5pX 5px 20px brown;
@@ -9,5 +9,12 @@
     /* background: linear-gradient(45deg, brown, pink); */
     margin-top: 10px;
     /* background-color: crimson; */
+    background-color: crimson;
+    opacity: 0.5;
 
+}
+.stylediv1:hover{
+    box-shadow: 0 1px 2px rgba(164, 34, 34, 0.2);
+        z-index: 3;
+        opacity: .8;
 }
