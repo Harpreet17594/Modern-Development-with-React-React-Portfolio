@@ -1,23 +1,20 @@
 [
-    {
+      {
       
-        "screenshot": "/public/images/horison.png"
+        "screenshot1": "/public/images/horison.png"
         
       },
       {
-        "screenshot": "/public/images/prework.png"
+        "screenshot1": "/public/images/prework.png"
       },
       {
-        "screenshot": "/public/images/02-run-buddy.jpg"
+        "screenshot1": "/public/images/react.png"
       },
       {
-        "screenshot": "/public/images/portfolio.png"
+        "screenshot1": "/public/images/mestro.png"
       },
       {
-        "screenshot": "/public/images/portfolio.png"
-      },
-      {
-        "screenshot": "/public/images/portfolio.png"
+        "screenshot1": "/public/images/bootstrap.png"
       }
   ]
   

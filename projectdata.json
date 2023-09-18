@@ -1,32 +1,32 @@
 [
     {
-        "title": "cssportfolio",
+        "title": "Horison Project",
         "deployedlink": "https://harpreet17594.github.io/Myprework/",
-        "screenshot": "/public/images/portfolio.png",
+        "screenshot": "/public/images/horison.png",
         "githublink": "https://harpreet17594.github.io/Myprework/"
       },
       {
-        "title": "html/css portfolio",
+        "title": "Prework Project",
         "deployedlink": "https://harpreet17594.github.io/Myprework/",
         "screenshot": "/public/images/prework.png",
         "githublink": "https://harpreet17594.github.io/Myprework/"
       },
       {
-        "title": "html/css portfolio",
+        "title": "React Portfolio",
         "deployedlink": "https://harpreet17594.github.io/Myprework/",
-        "screenshot": "/public/images/prework.png",
+        "screenshot": "/public/images/react.png",
         "githublink": "https://harpreet17594.github.io/Myprework/"
       },
       {
-        "title": "html/css portfolio",
+        "title": "Web Meastro Group Project",
         "deployedlink": "https://harpreet17594.github.io/Myprework/",
-        "screenshot": "/public/images/portfolio.png",
+        "screenshot": "/public/images/mestro.png",
         "githublink": "https://harpreet17594.github.io/Myprework/"
       },
       {
-        "title": "html/css portfolio",
+        "title": "Bootstrap portfolio",
         "deployedlink": "https://harpreet17594.github.io/Myprework/",
-        "screenshot": "/public/images/portfolio.png",
+        "screenshot": "/public/images/bootstrap.png",
         "githublink": "https://harpreet17594.github.io/Myprework/"
       }
   ]
