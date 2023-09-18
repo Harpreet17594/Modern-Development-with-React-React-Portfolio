@@ -5,10 +5,10 @@ import './Projectpagestyle.css';
 
 function ProjectPage(props) {
   console.log("propsssssss========"+props.children);
-  for(var i=0; i<props.children.length; i++)
-  {
+  
   return (
     <div className='container stylediv'>
+      <h1>Project</h1>
       <div className='row'><div className='col-md-12'>
         <div className='row'>
       <img alt={props.children[1]} src={props.children[5]} height={400} width={650}  /><br />
@@ -26,6 +26,7 @@ function ProjectPage(props) {
     
   );
   }
-}
+
+
 
 export default ProjectPage;

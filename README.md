@@ -51,14 +51,13 @@
         Gmail : harpreetvirdi17594@gmail.com
         Github URL :     https://github.com/Harpreet17594/Modern-Development-with-React-React-Portfolio
 
-        Portfolio webpage Link : https://harpreet17594.github.io/My-Portfolio/
-
 ## 4. Languages used
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Javasrcipt](https://img.shields.io/badge/javascript-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=blue)
 
 ## 5. Browser support
 
@@ -70,7 +69,7 @@
 
 ## 6. Screenshots of webpage
 
-![](./images/screenshot-mobile-view.jpeg "my image")
+![](/public/images/react.png "my image")
 
 ## 7. Installation
 
@@ -83,3 +82,7 @@
 ## 9. License
 
         No License
+
+## 10 Copyright
+
+&copy; Copyright Harpreet Kaur

@@ -7,7 +7,7 @@ import './projectsstyle.css';
 function Projects(props1) {
 //  console.log(props1);
   return (
-    <div className='container stylediv1'>
+    <div className='container stylediv1 box-shadow'>
     <div className='row'><div className='col-md-12'>
       <div className='row'>
     <img  src={props1.children[1]} height={400} width={650}  /><br />
