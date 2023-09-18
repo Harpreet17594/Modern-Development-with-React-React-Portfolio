@@ -5,7 +5,6 @@ import Mypic1 from '/public/images/Mypic1.jpg';
 
 import '/public/css/home.css'
 
-// import '../'
 
 function Home() {
   return (<>
@@ -15,12 +14,8 @@ function Home() {
       <img src={Mypic1} height="200px" width="200px" className='borderstyle' ></img>
       </div>
       <div className='col-lg-8 mt-5'>
-       
         <p className='fontstyleother'>
-        Hii I am Harpreet Kaur.This page containes information about me and my work which i have done last two weeks.
-         Also I have mentioned the skills i will learn in the Front end web developer bootcamp.Lastly i have mentioned my contact information.
-         Hii I am Harpreet Kaur.This page containes information about me and my work which i have done last two weeks.
-         Also I have mentioned the skills i will learn in the Front end web developer bootcamp.Lastly i have mentioned my contact information.
+        Hii , I am Harpreet kaur.I am basically from Punjab (India).I get married in 2020.I have done B.Sc. IT FROM Phagwara(Punjab). After that i did job at Technobitz as a website designer for around 5 years.My main duty was to edit running websites.After marriage i decided to study abroad.Then i studied at university of Wolverhampton. Now i want to sharpen my skills to get job in IT company. My hobbies are gardening and programming.Programming is my passion .I like learning new programming languages.This is the reason i have enrolled in bootcamp. Sometimes i spend my time in my home garden.I like to sit in the garden and watering plants.That's all about me.
         </p>
         </div>
       </div>

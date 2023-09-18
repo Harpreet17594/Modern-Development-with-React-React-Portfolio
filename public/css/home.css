@@ -8,6 +8,7 @@ margin-top: 10px;
     font-size: 30px;
     font-family: 'Bree Serif', serif;
     margin-top: 50px;
+    color: white;
 }
 .backstyle{
     /* background: linear-gradient(45deg, brown, pink); */
@@ -18,7 +19,7 @@ margin-top: 10px;
     border-radius: 30px;
     margin-top: 150px;
     margin-left: 100px;
-    border: solid brown 4px;
+    border: solid white 4px;
 }
 .styleul{
     border: 4px solid crimson;
