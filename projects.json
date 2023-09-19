@@ -1,20 +1,20 @@
 [
       {
       
-        "screenshot1": "/public/images/horison.png"
+        "screenshot1": "https://raw.githubusercontent.com/Harpreet17594/Modern-Development-with-React-React-Portfolio/main/public/images/horison.png"
         
       },
       {
-        "screenshot1": "/public/images/prework.png"
+        "screenshot1": "https://raw.githubusercontent.com/Harpreet17594/Modern-Development-with-React-React-Portfolio/main/public/images/prework.png"
       },
       {
-        "screenshot1": "/public/images/react.png"
+        "screenshot1": "https://raw.githubusercontent.com/Harpreet17594/Modern-Development-with-React-React-Portfolio/main/public/images/react.png"
       },
       {
-        "screenshot1": "/public/images/mestro.png"
+        "screenshot1": "https://raw.githubusercontent.com/Harpreet17594/Modern-Development-with-React-React-Portfolio/main/public/images/mestro.png"
       },
       {
-        "screenshot1": "/public/images/bootstrap.png"
+        "screenshot1": "https://raw.githubusercontent.com/Harpreet17594/Modern-Development-with-React-React-Portfolio/main/public/images/bootstrap.png"
       }
   ]
   

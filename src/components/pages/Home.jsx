@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as bootstrap from 'bootstrap';
-import Mypic1 from '/public/images/Mypic1.jpg';
+import Mypic1 from '/src/components/pages/images/Mypic1.jpg';
 
 import '/public/css/home.css'
 

@@ -2,6 +2,11 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as bootstrap from 'bootstrap';
 import './projectsstyle.css';
+import Horison from  "/src/components/pages/images/horison.png";
+import "/src/components/pages/images/prework.png";
+import "/src/components/pages/images/react.png";
+import "/src/components/pages/images/mestro.png";
+import "/src/components/pages/images/bootstrap.png";
 
 
 function Projects(props1) {

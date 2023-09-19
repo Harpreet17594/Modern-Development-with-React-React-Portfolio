@@ -2,6 +2,13 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as bootstrap from 'bootstrap';
 import './Projectpagestyle.css';
+import "/src/components/pages/images/horison.png";
+import "/src/components/pages/images/prework.png";
+import "/src/components/pages/images/react.png";
+import "/src/components/pages/images/mestro.png";
+import "/src/components/pages/images/bootstrap.png";
+
+
 
 function ProjectPage(props) {
   console.log("propsssssss========"+props.children);
@@ -17,7 +24,7 @@ function ProjectPage(props) {
 
       <h5>Title:{props.children[1]}</h5>
       <h5>Deployedlink:{props.children[3]}</h5>  
-      <h5>Githublink:{props.children[5]}</h5> 
+      <h5>Githublink:{props.children[7]}</h5> 
       <br /><br></br>
       </div>
     </div>

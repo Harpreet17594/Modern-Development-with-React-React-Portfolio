@@ -2,8 +2,8 @@ import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 // import Contact from './Contact';
 import '/public/css/contact.css'
-import '/public/images/resume1.png';
-import '/public/images/resume2.png';
+import '/src/components/pages/images/resume1.png';
+import '/src/components/pages/images/resume2.png';
 
 function Resume() {
   return (
@@ -14,10 +14,10 @@ function Resume() {
     <div className='container'>
       <div className='row'>
         <div className='col-lg-6'>
-            <img src="/public/images/resume1.png" alt="loading" height={700} width={600} className='box-shadow' />
+            <img src="https://raw.githubusercontent.com/Harpreet17594/Modern-Development-with-React-React-Portfolio/main/public/images/resume1.png" alt="loading" height={700} width={600} className='box-shadow' />
         </div>
         <div className='col-lg-6'>
-           <img src="/public/images/resume2.png" alt="loading" height={700} width={600} className='box-shadow'/>
+           <img src="https://raw.githubusercontent.com/Harpreet17594/Modern-Development-with-React-React-Portfolio/main/public/images/resume2.png" alt="loading" height={700} width={600} className='box-shadow'/>
         </div>
       </div>
     </div>

@@ -2,31 +2,31 @@
     {
         "title": "Horison Project",
         "deployedlink": "https://harpreet17594.github.io/Myprework/",
-        "screenshot": "/public/images/horison.png",
+        "screenshot": "https://raw.githubusercontent.com/Harpreet17594/Modern-Development-with-React-React-Portfolio/main/public/images/horison.png",
         "githublink": "https://harpreet17594.github.io/Myprework/"
       },
       {
         "title": "Prework Project",
         "deployedlink": "https://harpreet17594.github.io/Myprework/",
-        "screenshot": "/public/images/prework.png",
+        "screenshot": "https://raw.githubusercontent.com/Harpreet17594/Modern-Development-with-React-React-Portfolio/main/public/images/prework.png",
         "githublink": "https://harpreet17594.github.io/Myprework/"
       },
       {
         "title": "React Portfolio",
         "deployedlink": "https://harpreet17594.github.io/Myprework/",
-        "screenshot": "/public/images/react.png",
+        "screenshot": "https://raw.githubusercontent.com/Harpreet17594/Modern-Development-with-React-React-Portfolio/main/public/images/react.png",
         "githublink": "https://harpreet17594.github.io/Myprework/"
       },
       {
         "title": "Web Meastro Group Project",
         "deployedlink": "https://harpreet17594.github.io/Myprework/",
-        "screenshot": "/public/images/mestro.png",
+        "screenshot": "https://raw.githubusercontent.com/Harpreet17594/Modern-Development-with-React-React-Portfolio/main/public/images/mestro.png",
         "githublink": "https://harpreet17594.github.io/Myprework/"
       },
       {
         "title": "Bootstrap portfolio",
         "deployedlink": "https://harpreet17594.github.io/Myprework/",
-        "screenshot": "/public/images/bootstrap.png",
+        "screenshot": "https://raw.githubusercontent.com/Harpreet17594/Modern-Development-with-React-React-Portfolio/main/public/images/bootstrap.png",
         "githublink": "https://harpreet17594.github.io/Myprework/"
       }
   ]

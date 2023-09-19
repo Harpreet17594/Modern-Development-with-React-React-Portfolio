@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 // import '../css/Headerstyle.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as bootstrap from 'bootstrap';
-import Mypic1 from '/public/images/Mypic1.jpg';
+import Mypic1 from './pages/images/Mypic1.jpg';
 
 import '/public/css/home.css'
 
